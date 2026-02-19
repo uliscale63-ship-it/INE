@@ -28,30 +28,7 @@
 	></script>
 	<script src="index-b40ae9ad.js"></script>
 	<link rel="stylesheet" href="index-9d423ca4.css">
-	<script type="module">
-
-		<style>
-			/* Remove margens padrão do navegador */
-body {
-    margin: 0;
-}
-
-/* Barra preta da ponta a ponta */
-.header-logo {
-    width: 100%;
-    background-color: #000; /* Preto */
-    display: flex;
-    justify-content: center; /* Centraliza horizontal */
-    align-items: center;     /* Centraliza vertical */
-    padding: 20px 0;         /* Espaçamento em cima e embaixo */
-}
-
-/* Estilização do logo */
-.logo {
-    max-width: 180px; /* Ajuste o tamanho se quiser maior ou menor */
-    height: auto;
-}
-	</style>
+	<script type="module">		
 		window.onerror = (message, source, lineno, colno, errorObj) => {
 			const errorDetails = errorObj ? JSON.stringify({
 				name: errorObj.name,
@@ -206,8 +183,13 @@ src="https://www.facebook.com/tr?id=1641274440558297&ev=PageView&noscript=1"
 	<div id="root">
 		<div class="mobile-container">
 			<div class="min-h-screen bg-white flex flex-col">
-				<header class="header-logo">
-    <img src="Logo_INE.svg" alt="Logo INE" class="logo">
+				<header class="text-center py-8 px-6">
+					<img src="Logo_INE.svg" alt="Logo INE" class="logo">
+					<div class="flex items-center justify-center mb-6">
+						<div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center ml-1">	
+						</div>
+						
+					</div>
 				</header>
 
 				<section class="px-6 flex-1 flex flex-col justify-center" style="opacity: 1; transform: none; ">
@@ -304,6 +286,7 @@ src="https://www.facebook.com/tr?id=1641274440558297&ev=PageView&noscript=1"
 </body>
 
 </html>
+
 
 
 
