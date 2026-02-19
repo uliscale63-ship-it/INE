@@ -183,13 +183,17 @@ src="https://www.facebook.com/tr?id=1641274440558297&ev=PageView&noscript=1"
 	<div id="root">
 		<div class="mobile-container">
 			<div class="min-h-screen bg-white flex flex-col">
-				<header class="text-center py-8 px-6">
-					<img src="Logo_INE.svg" alt="Logo INE" class="logo">
-					<div class="flex items-center justify-center mb-6">
-						<div class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center ml-1">	
-						</div>
-						
-					</div>
+				<header>
+        <img src="Logo_INE.svg" alt="Logo INE" class="logo">
+        <div class="user-status" id="userHeader" style="display: none;">
+            <div class="status-item">
+                <span id="headerName">Usuário</span>
+            </div>
+            <div class="status-item">
+                <span>Saldo:</span>
+                <span class="balance-amount" id="headerBalance">0 KZ</span>
+            </div>
+        </div>
 				</header>
 				<section class="px-6 flex-1 flex flex-col justify-center" style="opacity: 1; transform: none; ">
 					<div class="max-w-md mx-auto w-full text-center space-y-6">
@@ -285,6 +289,7 @@ src="https://www.facebook.com/tr?id=1641274440558297&ev=PageView&noscript=1"
 </body>
 
 </html>
+
 
 
 
